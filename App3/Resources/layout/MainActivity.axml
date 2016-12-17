@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Main Activity"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="54.5dp"
+        android:id="@+id/textView1"
+        android:gravity="center_vertical"
+        android:ellipsize="none" />
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="58.0dp"
+        android:id="@+id/autoCompleteTextView1" />
+    <Button
+        android:text="SubActivityへ"
+        android:layout_width="264.0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1"
+        android:layout_marginLeft="55.0dp"
+        android:layout_marginTop="21.0dp" />
+</LinearLayout>
