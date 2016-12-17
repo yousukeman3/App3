@@ -17,12 +17,13 @@ namespace App3
             // SetContentView (Resource.Layout.Main);
 
             Button button1 = FindViewById<Button>(Resource.Id.button1);
-
+            EditText textbox1 = FindViewById<EditText>(Resource.Id.autoCompleteTextView1);
 
 
             button1.Click += delegate
             {
                 Intent intent = new Intent(this, typeof(SubActivity));
+                intent.PutExtra("string", textbox1.Text);
 
                 this.StartActivity(intent);
             };

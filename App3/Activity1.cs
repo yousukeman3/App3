@@ -20,6 +20,8 @@ namespace App3
             base.OnCreate(savedInstanceState);
             // Create your application here
             SetContentView(Resource.Layout.SubActivity);
+            TextView label1 = FindViewById<TextView>(Resource.Id.textView2);
+            label1.Text = this.Intent.GetStringExtra("string");
         }
     }
 }

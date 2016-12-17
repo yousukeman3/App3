@@ -13,7 +13,7 @@
         android:ellipsize="none" />
     <AutoCompleteTextView
         android:layout_width="match_parent"
-        android:layout_height="58.0dp"
+        android:layout_height="70.5dp"
         android:id="@+id/autoCompleteTextView1" />
     <Button
         android:text="SubActivityへ"
